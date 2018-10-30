@@ -1,0 +1,71 @@
+
+/*Sets the width of the overall page container div
+to 90% of viewport width and margin:auto centers the page
+in the middle of the browser no matter how wide you stretch the browser*/
+.pagecontainer {
+  margin: auto;
+  width: 90vw;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background: #EFFFE9;
+  padding: 2rem;
+  text-align: center;
+}
+/*Unordered list in the navbar is set to display flex with wrapping
+so at smaller size-mobile width--it wraps vertically in a row
+and at larger screen widths it spreads more horizontally.
+And justify-content centers flex blox content*/
+nav ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+/*Sets background color of nav list elements and their width and height*/
+nav ul li {
+  background: #AAABD3;
+  height: 2rem;
+  width: 20rem;
+  padding-top: 1rem;
+  border-color: none;
+  border: none;
+  border-width: 1px;
+  text-align: center;
+}
+/*Takes away the default underlining of links and sets color of menu font*/
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #011627;
+}
+/*Active psuedoclass is used so When you click on a menu item it turns orange.*/
+nav ul li:active {
+  background: #2EC4B6;
+}
+/*This class should be applied to html differently on each page to let user know
+which page you are on--in this case the home page*/
+.locationmarker {
+  background: #dedcee;
+}
+
+article {
+  border-radius: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin: 5em;
+}
+
+.posting{
+  background-color: #EFFFE9;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-
+}
+
+footer {
+  background: #EFFFE9;
+  padding: 2rem;
+  text-align: center;
+}
