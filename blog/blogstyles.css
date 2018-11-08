@@ -70,6 +70,7 @@ nav ul li:active {
 }
 
  section{
+   display:block;
   grid-row: 3 / 7;
   grid-column: 1;
 
@@ -95,7 +96,7 @@ article{
 
 article img{
   float:left;
-  position: relative;
+  /* position: relative; */
   word-wrap: normal;
   width:20%;
   height:auto;
