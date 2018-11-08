@@ -43,6 +43,7 @@ nav ul li {
   height: 3rem;
   width: 14rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: 2rem;
   border-color: none;
   border: none;
@@ -53,7 +54,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   text-align: left;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
 
   color: #011627;
@@ -87,16 +88,17 @@ article{
   /* color: #ffffff; */
 }
 
-article h2 h3 h4 p a {
+/* article h2 h3 h4 p a {
   position: 3rem;
-}
+} */
 
 article img{
   float:left;
+  position: relative;
   word-wrap: normal;
   width:20%;
   height:auto;
-  padding-bottom: 40em;
+  padding-bottom: 10rem;
 }
 
 article a{
