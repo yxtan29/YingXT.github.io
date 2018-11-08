@@ -40,7 +40,7 @@ nav ul {
 
 nav ul li {
   background: #ffffff;
-  height: 2rem;
+  height: 3rem;
   width: 14rem;
   padding-top: 1rem;
   padding-left: 2rem;
@@ -80,8 +80,9 @@ nav ul li:active {
 }
 
 article{
-  padding-top: 7em;
-  padding-bottom: 7em;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
 
   /* color: #ffffff; */
 }
