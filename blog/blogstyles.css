@@ -17,11 +17,11 @@ header {
   grid-row: 1;
   grid-column: 1;
   /* margin-right:8px; */
-
+  /* background: url("blogbanner.png"); */
 }
 
 header img{
-  max-width: 100%
+  max-width: 100%;
   padding:none;
 }
 
