@@ -4,7 +4,7 @@ to 90% of viewport width and margin:auto centers the page
 in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   margin: auto;
-  /* width: 80vw; */
+  width: 80vw;
   /* width:auto; */
   font-family: 'Rubik', sans-serif;
 
@@ -21,7 +21,7 @@ header {
 }
 
 header img{
-  max-width: 100%;
+  max-width: 1155px;
   padding:none;
 }
 
