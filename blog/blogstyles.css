@@ -5,7 +5,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   margin: auto;
   /* width: 80vw; */
-  width:auto;
+  /* width:auto; */
   font-family: 'Rubik', sans-serif;
 
   display: grid;
@@ -100,7 +100,7 @@ article img{
   word-wrap: normal;
   width:20%;
   height:auto;
-  padding-bottom: 10rem;
+  /* padding-bottom: 10rem; */
 }
 
 article a{
