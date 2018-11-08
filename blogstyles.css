@@ -19,9 +19,9 @@ header {
 
 }
 
-header img{
+/* header img{
   max-width: auto;
-}
+} */
 
 nav{
   grid-row: 2;
