@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  vertical-align: baseline;
+  font-size: 100%;
+
+  text-decoration: none;
+}
+
+.pagecontainer {
+  margin: 0 auto;
+  width: 80%;
+}
+
+html{
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  width: 100%;
+  background: #ffffff;
+}
+
+header{
+  width: 100%
+}
+
+header a{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+header a img{
+  width:15%;
+  display: flex;
+}
+
+nav{
+  display: block;
+}
+
+nav ul {
+  margin: 0rem;
+  padding: 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav ul li {
+  background: #ffffff;
+  height: 3rem;
+  width: 25rem;
+  padding: 3rem;
+  border-color: none;
+  border: none;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-align: left;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #011627;
+}
+
+nav ul li:hover{
+  background: #fccf00;
+}
+
+nav ul li:active {
+  background: #56b8e5;
+}
+
+/* #dropmenu{
+  display: inline-block;
+  position: relative;
+  justify-content: center;
+  left: -3rem;
+}
+
+#dropmenu ul{
+  display: block;
+  background-color: #ffffff;
+}
+
+#dropmenu ul li{
+  background: #ffffff;
+  border-color: none;
+  border: none;
+  text-align: center;
+}
+
+#dropmenu ul li a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #011627;
+}
+
+#dropmenu ul li a:hover{
+  color:#fccf00;
+}
+
+nav ul li:hover #menu{
+  left:auto;
+  right: auto;
+  width:30%;
+} */
+
+h1{
+  font-size: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  text-align: left;
+}
+
+section{
+  margin: auto;
+  padding-top:2rem;
+  padding-bottom:5rem;
+  display: inline-grid;
+}
+
+section article{
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 32rem;
+  padding-right: 32rem;
+  align-items: center;
+  align-content: center;
+}
+
+section article img{
+  max-width: none;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+section p {
+  font-size: 4rem;
+}
+
+footer{
+  height: 13rem;
+  background-color: #000000;
+  padding:3rem;
+  padding-top: 8rem;
+}
+
+footer p{
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+footer p a{
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ffffff;
+}
