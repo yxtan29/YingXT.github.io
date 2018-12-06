@@ -1,14 +1,15 @@
+/*** APPLIES TO ENTIRE FILE ***/
 *{
   margin: 0;
   padding: 0;
   border: none;
   outline: none;
   vertical-align: baseline;
-  font-size: 100%;
 
   text-decoration: none;
 }
 
+/*** PAGECONTAINER***/
 .pagecontainer {
   margin: 0 auto;
   width: 80%;
@@ -35,17 +36,17 @@ header a{
 }
 
 header a img{
-  width:15%;
+  width:20%;
   display: flex;
 }
 
+/*** NAVIGATION ***/
 nav{
-  display: block;
 }
 
 nav ul {
-  margin: 0rem;
-  padding: 0rem;
+  margin: 0%;
+  padding: 0%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -54,9 +55,9 @@ nav ul {
 
 nav ul li {
   background: #ffffff;
-  height: 3rem;
-  width: 25rem;
-  padding: 3rem;
+  height: 3%;
+  width: 25%;
+  padding: 3%;
   border-color: none;
   border: none;
   text-align: center;
@@ -65,104 +66,111 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   text-align: left;
-  font-size: 4rem;
+  font-size: 1em;
   font-weight: bold;
   color: #011627;
 }
 
 nav ul li:hover{
-  background: #fccf00;
+  background: #c5a173;
 }
 
 nav ul li:active {
-  background: #56b8e5;
+  background: #D4AF37;
 }
-
-/* #dropmenu{
-  display: inline-block;
-  position: relative;
-  justify-content: center;
-  left: -3rem;
-}
-
-#dropmenu ul{
-  display: block;
-  background-color: #ffffff;
-}
-
-#dropmenu ul li{
-  background: #ffffff;
-  border-color: none;
-  border: none;
-  text-align: center;
-}
-
-#dropmenu ul li a{
-  text-decoration: none;
-  text-align: center;
-  font-size: 4rem;
-  font-weight: bold;
-  color: #011627;
-}
-
-#dropmenu ul li a:hover{
-  color:#fccf00;
-}
-
-nav ul li:hover #menu{
-  left:auto;
-  right: auto;
-  width:30%;
-} */
+/*** END OF NAVIGATION ***/
 
 h1{
-  font-size: 8rem;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  font-size: 2em;
+  padding-top: 4%;
+  padding-bottom: 4%;
   text-align: left;
 }
 
-section{
-  margin: auto;
-  padding-top:2rem;
-  padding-bottom:5rem;
-  display: inline-grid;
+/*** WORKS SECTION ***/
+/*** I know a grid might be more efficient, I just prefer it this way ***/
+#works{
+  margin:auto;
+  text-align: center;
 }
 
-section article{
-  flex-direction: column;
+/* top row */
+#display{
+  display: flex;
   flex-wrap: wrap;
-  padding-left: 32rem;
-  padding-right: 32rem;
-  align-items: center;
-  align-content: center;
-}
-
-section article img{
-  max-width: none;
   justify-content: center;
-  align-items: center;
   align-content: center;
 }
 
-section p {
-  font-size: 4rem;
+#display img{
+  width: 280px;
+  margin: 0;
+  padding: 15px;
 }
+
+#display img:hover{
+  opacity: .6;
+}
+
+/* second row */
+#display2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#display2 img{
+  width: 220px;
+  margin: 0;
+  padding: 15px;
+}
+
+#display2 img:hover{
+  opacity: .6;
+}
+
+/* third row */
+#display3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#display3 img{
+  width: 300px;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 120px;
+  padding-left: 80px;
+}
+
+#display3 img:hover{
+  opacity: .6;
+}
+
+/* fourth row */
+
+
+/*** END OF WORKS SECTION ***/
+
 
 footer{
-  height: 13rem;
+  height: 13%;
   background-color: #000000;
-  padding:3rem;
-  padding-top: 8rem;
+  padding:3%;
+  padding-top: 8%;
 }
 
 footer p{
   color: #ffffff;
-  font-size: 3rem;
+  font-size: 3%;
 }
 
 footer p a{
-  font-size: 4rem;
+  font-size: 4%;
   font-weight: bold;
   color: #ffffff;
 }
