@@ -156,36 +156,7 @@ section{
 /*** END OF WORKS SECTION ***/
 
 
-/*** CONTACT ***/
-#contact{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
 
-#contact p {
-  display: block;
-  margin: auto;
-  text-align: center;
-  line-height: 1.5em;
-}
-
-/* #contact h2{
-  font-size: 2em;
-  padding-top: 6%;
-  padding-bottom: 4%;
-  text-align: center;
-}
-
-#social{
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  padding:
-} */
-/*** END CONTACT ***/
 
 footer {
   display: flex;
