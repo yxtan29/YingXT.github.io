@@ -139,10 +139,10 @@ h1{
 }
 
 #display3 img{
-  width: 300px;
+  width: 280px;
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-right: 120px;
   padding-left: 80px;
 }
@@ -152,12 +152,26 @@ h1{
 }
 
 /* fourth row */
+#display4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
 
+#display4 img{
+  width: 280px;
+  margin: 0;
+  padding: 20px;
+}
 
+#display4 img:hover{
+  opacity: .6;
 /*** END OF WORKS SECTION ***/
 
 
-footer{
+footer {
   height: 13%;
   background-color: #000000;
   padding:3%;
