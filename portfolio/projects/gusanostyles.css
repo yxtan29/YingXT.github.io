@@ -144,13 +144,14 @@ section{
 footer {
   display: flex;
   flex-wrap: wrap;
-  height: 8em;
+  height: 10em;
   background-color: #000000;
   padding: 2em;
   padding-top: 8%;
 }
 
 footer p{
+  line-height: 1.7;
   color: #ffffff;
   font-size: 1em;
 }
