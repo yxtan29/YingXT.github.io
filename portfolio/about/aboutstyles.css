@@ -36,7 +36,7 @@ header a{
 }
 
 header a img{
-  width: 10%;
+  width: 20%;
   display: flex;
 }
 
@@ -80,92 +80,99 @@ nav ul li:active {
 }
 /*** END OF NAVIGATION ***/
 
+
+
+/*** HEADER ***/
 #about {
   margin:auto;
   text-align: center;
 }
 
 #about h1{
+  display: inline-flex;
   font-size: 3em;
   padding-top: 4%;
-  padding-bottom: 7%;
+  padding-bottom: 3%;
   text-align: center;
+}
+/*** END OF HEADER***/
+
+
+
+/*** INFO AND PICTURE ***/
+#about2{
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+  text-align: left;
+  padding-left: 5em;
 }
 
 #ying{
   display: block;
-  flex-wrap: wrap;
-  margin:auto;
-  text-align: left;
+  width: 35em;
 }
 
 #ying h2{
-  font-size: 1.5em;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 15em; */
+  margin: 0;
+  padding-bottom: .8em;
+
+  font-size: 2em;
 }
 
 #ying h3{
-  font-size: 1.4em;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 15em; */
+  margin: 0;
+  padding-bottom: 2em;
+
+  font-size: 1.7em;
+  font-style: italic;
 }
 
-#ying p {
+#ying p{
+  font-size: 1em;
+  padding-right: 4em;
+  padding-bottom: 2em;
+  line-height: 1.5em;
+}
+
+#yingface{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+#yingface img{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  width: auto;
+
+  padding: 3em;
+}
+/*** END OF INFO AND PICTURE ***/
+
+/* #ying p {
+  grid-column: 1;
+  grid-row: 2;
+
   width: 30em;
   font-size: .9em;
   padding-top: 1%;
   padding-bottom: 3%;
   text-align: left;
   line-height: 1.4;
-}
-
-section{
-  margin: 0 auto;
-  padding-bottom: 3em;
-}
-
-
-/*** WORKS SECTION ***/
-/*** I know a grid might be more efficient, I just prefer it this way ***/
-#works{
-  margin:auto;
-  text-align: center;
-}
-
-#display{
-  display: flex;
-  flex-wrap: wrap;
-  width:210px;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
-
-/* top row */
-#display img{
-  width: 260px;
-  margin: 0;
-  padding: 15px;
-}
-
-#display2 {
-  display: flex;
-  flex-wrap: wrap;
-  width: 500px;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
-
-/* second row */
-#display2 img{
-  width: 210px;
-  margin: 0;
-  padding: 30px;
-}
-/*** END OF WORKS SECTION ***/
-
+} */
 
 footer {
   display: flex;
