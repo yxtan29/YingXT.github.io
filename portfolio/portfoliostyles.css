@@ -111,7 +111,7 @@ section{
 #display img{
   width: 280px;
   margin: 0;
-  padding: 15px;
+  padding: 20px;
 }
 
 #display img:hover{
@@ -120,9 +120,9 @@ section{
 
 /* second row */
 #display2 img{
-  width: 220px;
+  width: 280px;
   margin: 0;
-  padding: 15px;
+  padding: 20px;
 }
 
 #display2 img:hover{
@@ -133,29 +133,69 @@ section{
 #display3 img{
   width: 280px;
   margin: 0;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 120px;
-  padding-left: 80px;
+  padding: 25px;
 }
 
 #display3 img:hover{
   opacity: .6;
 }
 
-/* fourth row */
-#display4 img{
-  width: 280px;
-  margin: 0;
-  padding: 20px;
-}
-
-#display4 img:hover{
-  opacity: .6;
+.svg:hover{
+  cursor: pointer;
+  filter: invert(.4) sepia(4) saturate(3);
 }
 /*** END OF WORKS SECTION ***/
 
 
+/*** CONTACT SECTION ***/
+#contact {
+  margin:auto;
+  text-align: center;
+  padding-top: 3em;
+}
+
+#social{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#social img{
+  margin: 0;
+  width: 3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 3em;
+}
+
+.fb:hover{
+  cursor: pointer;
+  filter: invert(.25) sepia(3) saturate(5) hue-rotate(180deg);
+}
+
+.ig:hover{
+  cursor: pointer;
+  filter: invert(.3) sepia(2) saturate(4) hue-rotate(235deg);
+}
+
+.tw:hover{
+  cursor: pointer;
+  filter: invert(.5) sepia(3) saturate(3) hue-rotate(160deg);
+}
+
+.in:hover{
+  cursor: pointer;
+  filter: invert(.3) sepia(3) saturate(3) hue-rotate(170deg);
+}
+
+.be:hover{
+  cursor: pointer;
+  filter: invert(.4) saturate(3);
+}
+
+/*** END OF CONTACT SECTION ***/
 
 
 footer {
