@@ -9,7 +9,7 @@
   text-decoration: none;
 }
 
-/*** PAGECONTAINER***/
+/*** PAGECONTAINER ***/
 .pagecontainer {
   margin: 0 auto;
   width: 80%;
@@ -80,10 +80,48 @@ nav ul li:active {
 }
 /*** END OF NAVIGATION ***/
 
-h1{
-  font-size: 2em;
-  padding-top: 4%;
+
+/*** WORKS SECTION ***/
+#works{
+  margin:auto;
   text-align: center;
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+#works h1{
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: .1em;
+  text-align: left;
+  font-size: 2.5em;
+}
+
+#works h2{
+  display: flex;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  text-align: left;
+  font-size: 1.7em;
+}
+
+#display, #display2, #display3, #display4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#display img{
+  width: 290px;
+  margin: 0;
+  padding: 10px;
+}
+
+.black:hover{
+  cursor: pointer;
+  filter: invert(8) grayscale(5) saturate(3);
 }
 
 h3{
@@ -101,42 +139,26 @@ p {
   line-height: 1.4;
 }
 
-section{
-  margin: 0 auto;
-  padding-bottom: 3em;
-}
-
-/*** WORKS SECTION ***/
-/*** I know a grid might be more efficient, I just prefer it this way ***/
-#works{
-  margin:auto;
-  text-align: center;
-}
-
-#display, #display2{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
-
-/* top row */
-#display img{
-  width: 260px;
-  margin: 0;
-  padding: 15px;
-}
-
-#display img:hover{
-  opacity: .6;
-}
-
-/* second row */
 #display2 img{
-  width: 500px;
+  width: 600px;
   margin: 0;
   padding: 30px;
+}
+
+#display3 img{
+  width: 450px;
+  margin: 0;
+  padding-left: 2em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 30px;
+}
+
+#display4 img{
+  width: 1000px;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 30px;
 }
 /*** END OF WORKS SECTION ***/
 
