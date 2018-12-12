@@ -1,0 +1,172 @@
+/*** APPLIES TO ENTIRE FILE ***/
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  vertical-align: baseline;
+
+  text-decoration: none;
+}
+
+/*** PAGECONTAINER ***/
+.pagecontainer {
+  margin: 0 auto;
+  width: 80%;
+}
+
+html{
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  width: 100%;
+  background: #ffffff;
+}
+
+header{
+  width: 100%
+}
+
+header a{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+header a img{
+  width:20%;
+  display: flex;
+}
+
+/*** NAVIGATION ***/
+nav{
+}
+
+nav ul {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav ul li {
+  background: #ffffff;
+  height: 3%;
+  width: 25%;
+  padding: 3%;
+  border-color: none;
+  border: none;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+  color: #011627;
+}
+
+nav ul li:hover{
+  background: #c5a173;
+}
+
+nav ul li:active {
+  background: #D4AF37;
+}
+/*** END OF NAVIGATION ***/
+
+
+/*** WORKS SECTION ***/
+#works{
+  margin:auto;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+#works h1{
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: .1em;
+  text-align: left;
+  font-size: 2.5em;
+}
+
+#works h2{
+  display: flex;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  text-align: left;
+  font-size: 1.7em;
+}
+
+#display, #display2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#display img{
+  width: 290px;
+  margin: 0;
+  padding: 10px;
+}
+
+.mask:hover{
+  cursor: pointer;
+  filter: invert(.3) sepia(2) saturate(3) hue-rotate(200deg);
+}
+
+h3{
+  font-size: 1.4em;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: left;
+}
+
+p {
+  font-size: .9em;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  text-align: left;
+  line-height: 1.4;
+}
+
+#display2 img{
+  width: 400px;
+  margin: 0;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  padding-left: 1em;
+  padding-right: 2em;
+}
+/*** END OF WORKS SECTION ***/
+
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 10em;
+  background-color: #000000;
+  padding: 2em;
+  padding-top: 8%;
+}
+
+footer p{
+  line-height: 1.7;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+footer p a{
+  font-size: 4%;
+  font-weight: bold;
+  color: #ffffff;
+}
